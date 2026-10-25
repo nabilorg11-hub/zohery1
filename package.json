@@ -4,7 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "node server.mjs",
-    "build": "node build.mjs"
+    "dev": "node scripts/preview.mjs",
+    "start": "node scripts/preview.mjs",
+    "build": "node build.mjs",
+    "check": "node scripts/check-build.mjs"
   }
 }
